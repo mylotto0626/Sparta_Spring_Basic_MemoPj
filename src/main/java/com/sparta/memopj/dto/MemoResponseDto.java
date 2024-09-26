@@ -13,5 +13,6 @@ public class MemoResponseDto {
         this.id = memo.getId();
         this.username = memo.getUsername();
         this.contents = memo.getContents();
+        //  완료
     }
 }
