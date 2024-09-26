@@ -70,7 +70,7 @@ public class MemoController {
 
     @DeleteMapping("/memos/{id}")
     public Long deleteMemo(@PathVariable Long id) {
-        // 해당 메모가 DB에 존재하는지 확인
+        // 해당 메모가 DB에 존재하는지 확인하자
         if(memoList.containsKey(id)) {
             // 해당 메모 삭제하기
             memoList.remove(id);
